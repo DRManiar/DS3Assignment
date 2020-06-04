@@ -1,0 +1,92 @@
+This file describes the variables in the tidy data file named "DS3Assign_tidytable.txt". The data in this file are average values of mean and standard deviation of measurements grouped by each subject and each activity. The data size is 180 rows and 81 columns.
+
+Units:
+- The triaxial accelerations values and their magnitudes are in standard gravity units 'g'.
+- The triaxial angular velocities and their magnitudes (the Gyro values) are in (rad/sec) or (1/sec).
+- The acceleration jerk values are in ('g'/sec).
+- The 'gyro' jerk values are in (rad/sec^2) or (1/sec^2).
+- The meanFreq() variables are in Hz.
+
+The column variable names are described below in the column order. Columns 3 to 81 contains numeric values and they all are avearge values as mentioned above.
+
+subject -- Contains subject keys ranging from 1 to 30 (integers)
+activity -- Contain six unique activity labels (character)
+tBodyAcc-mean()-X -- Time domain X body acceleration mean
+tBodyAcc-mean()-Y -- Time domain Y body acceleration mean
+tBodyAcc-mean()-Z -- Time domain Z body acceleration mean
+tBodyAcc-std()-X -- Time domain X body acceleration standard deviation
+tBodyAcc-std()-Y -- Time domain Y body acceleration standard deviation
+tBodyAcc-std()-Z -- Time domain Z body acceleration standard deviation
+tGravityAcc-mean()-X -- Time domain X gravity acceleration mean
+tGravityAcc-mean()-Y -- Time domain Y gravity acceleration mean
+tGravityAcc-mean()-Z -- Time domain Z gravity acceleration mean
+tGravityAcc-std()-X -- Time domain X gravity acceleration standard deviation
+tGravityAcc-std()-Y -- Time domain Y gravity acceleration standard deviation
+tGravityAcc-std()-Z -- Time domain Z gravity acceleration standard deviation
+tBodyAccJerk-mean()-X -- Time domain X body acceleration jerk mean
+tBodyAccJerk-mean()-Y -- Time domain Y body acceleration jerk mean
+tBodyAccJerk-mean()-Z -- Time domain Z body acceleration jerk mean
+tBodyAccJerk-std()-X -- Time domain X body acceleration jerk standard deviation
+tBodyAccJerk-std()-Y -- Time domain Y body acceleration jerk standard deviation
+tBodyAccJerk-std()-Z -- Time domain Z body acceleration jerk standard deviation
+tBodyGyro-mean()-X -- Time domain X body angular velocity mean
+tBodyGyro-mean()-Y -- Time domain Y body angular velocity mean
+tBodyGyro-mean()-Z -- Time domain Z body angular velocity mean
+tBodyGyro-std()-X -- Time domain X body angular velocity standard deviation
+tBodyGyro-std()-Y -- Time domain Y body angular velocity standard deviation
+tBodyGyro-std()-Z -- Time domain Z body angular velocity standard deviation
+tBodyGyroJerk-mean()-X -- Time domain X body angular velocity jerk mean
+tBodyGyroJerk-mean()-Y -- Time domain Y body angular velocity jerk mean
+tBodyGyroJerk-mean()-Z -- Time domain Z body angular velocity jerk mean
+tBodyGyroJerk-std()-X -- Time domain X body angular velocity jerk standard deviation
+tBodyGyroJerk-std()-Y -- Time domain Y body angular velocity jerk standard deviation
+tBodyGyroJerk-std()-Z -- Time domain Z body angular velocity jerk standard deviation
+tBodyAccMag-mean() -- Time domain body acceleration magnitude mean
+tBodyAccMag-std() -- Time domain body acceleration magnitude standard deviation
+tGravityAccMag-mean() -- Time domain gravity acceleration magnitude mean
+tGravityAccMag-std() -- Time domain gravity acceleration magnitude standard deviation
+tBodyAccJerkMag-mean() -- Time domain body acceleration jerk magnitude mean
+tBodyAccJerkMag-std() -- Time domain body acceleration jerk magnitude standard deviation
+tBodyGyroMag-mean() -- Time domain body angular velocity magnitude mean
+tBodyGyroMag-std() -- Time domain body angular velocity magnitude standard deviation
+tBodyGyroJerkMag-mean() -- Time domain body angular velocity jerk magnitude mean
+tBodyGyroJerkMag-std() -- Time domain body angular velocity magnitude jerk standard deviation
+fBodyAcc-mean()-X -- Frequency domain X body acceleration mean
+fBodyAcc-mean()-Y -- Frequency domain Y body acceleration mean
+fBodyAcc-mean()-Z -- Frequency domain Z body acceleration mean
+fBodyAcc-std()-X -- Frequency domain X body acceleration standard deviation
+fBodyAcc-std()-Y -- Frequency domain Y body acceleration standard deviation
+fBodyAcc-std()-Z -- Frequency domain Z body acceleration standard deviation
+fBodyAcc-meanFreq()-X -- Frequency domain X body acceleration weighted-average frequency for mean
+fBodyAcc-meanFreq()-Y -- Frequency domain Y body acceleration weighted-average frequency for mean
+fBodyAcc-meanFreq()-Z -- Frequency domain Z body acceleration weighted-average frequency for mean
+fBodyAccJerk-mean()-X -- Frequency domain X body acceleration jerk mean
+fBodyAccJerk-mean()-Y -- Frequency domain Y body acceleration jerk mean
+fBodyAccJerk-mean()-Z -- Frequency domain Z body acceleration jerk mean
+fBodyAccJerk-std()-X -- Frequency domain X body acceleration jerk standard deviation
+fBodyAccJerk-std()-Y -- Frequency domain Y body acceleration jerk standard deviation
+fBodyAccJerk-std()-Z -- Frequency domain Z body acceleration jerk standard deviation
+fBodyAccJerk-meanFreq()-X -- Frequency domain X body acceleration jerk weighted-average frequency for mean
+fBodyAccJerk-meanFreq()-Y -- Frequency domain Y body acceleration jerk weighted-average frequency for mean
+fBodyAccJerk-meanFreq()-Z -- Frequency domain Z body acceleration jerk weighted-average frequency for mean
+fBodyGyro-mean()-X -- Frequency domain X body angular velocity mean
+fBodyGyro-mean()-Y -- Frequency domain Y body angular velocity mean
+fBodyGyro-mean()-Z -- Frequency domain Z body angular velocity mean
+fBodyGyro-std()-X -- Frequency domain X body angular velocity standard deviation
+fBodyGyro-std()-Y -- Frequency domain Y body angular velocity standard deviation
+fBodyGyro-std()-Z -- Frequency domain Z body angular velocity standard deviation
+fBodyGyro-meanFreq()-X -- Frequency domain X body angular velocity weighted-average frequency for mean
+fBodyGyro-meanFreq()-Y -- Frequency domain Y body angular velocity weighted-average frequency for mean
+fBodyGyro-meanFreq()-Z -- Frequency domain Z body angular velocity weighted-average frequency for mean
+fBodyAccMag-mean() -- Frequency domain body acceleration magnitude mean
+fBodyAccMag-std() -- Frequency domain body acceleration magnitude standard deviation
+fBodyAccMag-meanFreq() -- Frequency domain body acceleration magnitude weighted-average frequency for mean
+fBodyBodyAccJerkMag-mean() -- Frequency domain body acceleration jerk magnitude mean
+fBodyBodyAccJerkMag-std() -- Frequency domain body acceleration jerk magnitude standard deviation
+fBodyBodyAccJerkMag-meanFreq() -- Frequency domain body acceleration jerk magnitude weighted-average frequency for mean
+fBodyBodyGyroMag-mean() -- Frequency domain body angular velocity magnitude mean
+fBodyBodyGyroMag-std() -- Frequency domain body angular velocity magnitude standard deviation
+fBodyBodyGyroMag-meanFreq() -- Frequency domain body angular velocity magnitude weighted-average frequency for mean
+fBodyBodyGyroJerkMag-mean() -- Frequency domain body angular velocity jerk magnitude mean
+fBodyBodyGyroJerkMag-std() -- Frequency domain body angular velocity jerk magnitude standard deviation
+fBodyBodyGyroJerkMag-meanFreq() -- Frequency domain body angular velocity jerk magnitude weighted-average frequency for mean
